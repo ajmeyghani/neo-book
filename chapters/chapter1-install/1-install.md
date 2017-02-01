@@ -8,7 +8,7 @@ Before installing Neo4j, you need to make sure to have Java and Homebrew install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-After you have Java installed, you can install Neo4j with `brew install neo4j`. After the installation process is finished, you can start the server with `neo4j start`. It will take about 5 seconds for the server to come up. When the server is up, you can go to your browser and navigate to `http://localhost:7474/browser/` to see the Neo4j interface. The default credentials to login is as follows:
+After you have Java installed, you can install Neo4j with `brew install neo4j`. After the installation process is finished, you can start the server with `neo4j start`. It will take about 5 seconds for the server to come up. When the server is up, you can open your browser and navigate to `http://localhost:7474/browser/` to see the Neo4j interface. The default credentials to login is as follows:
 
 ```bash
 username: neo4j
@@ -19,13 +19,13 @@ If everything goes well, you should see an interface like the following:
 
 ![Neo4j Browser Interface](images/neo-interface.png)
 
-When you start Neo4j, the server creates a folder that contains the full database. The path to the database, would be similar to the following:
+When you start Neo4j, the server creates a folder that contains contains database. The path to the database, would be similar to the following:
 
 ```bash
 /usr/local/Cellar/neo4j/3.0.6/libexec/data/databases
 ```
 
-In this folder, you should see a folder called `graph.db` that is basically the database. If you remove the content of `graph.db`, you can basically refresh the database. You can also backup your database by zipping this folder.
+In this folder, you should see a folder called `graph.db` that is basically the database. If you remove the content of `graph.db`, you will practically reset the database. You can also backup your database by zipping this folder.
 
 ## Reseting the Database
 
