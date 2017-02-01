@@ -1,8 +1,8 @@
 # Installing Neo4j on a Mac
 
-In this section we will explain how to install and setup Neo4j on a Mac. If you are running a different OS, you can find a link to the documentation the explains how to install Neo4j on different platforms.
+In this section we will learn how to install and setup Neo4j on a Mac. If you are running a different OS, you can find a link to the documentation that explains how to install Neo4j on different platforms.
 
-Before installing Neo4j, you need to make sure to have Java and Homebrew installed. You can follow this [link](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to download and install Java. And if you don't have [Homebrew](http://brew.sh/) installed, you can go to the Homebrew site and copy paste the installation code in the terminal:
+Before installing Neo4j, you need to make sure to have Java and Homebrew installed. You can follow this [link](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to download and install Java. And if you don't have [Homebrew](http://brew.sh/) installed, you can go to the Homebrew site and copy paste the installation script in the terminal:
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
